@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7370-33W5-7
+D Low Dropout Linear Regulator, up to 18V input, 3.3V 350 mA, 1% accuracy
+K LDO
+F https://www.diodes.com/assets/Datasheets/AP7370.pdf
+$ENDCMP
+#
+$CMP AP7380-50WR-7
+D 5V Linear Regulator, 150 mA max, 24V input max
+K LDO
+$ENDCMP
+#
+$CMP MIC5504-3.3YM5-TR
+D 3.3V Low Dropout Regulator, 300 mA output, 5.5V max input, 38 uA quiescent
+K LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5501-02-03-04-300mA-Single-Output-LDO-in-Small-Packages-DS20006006B.pdf
+$ENDCMP
+#
+$CMP TPS82140
+D TPS82140 Buck Regulator Power Brick, 2A output, 17V max input
+K Buck Regulator
+F http://www.ti.com/lit/ds/symlink/tps82140.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP6541T-ILT
+D MCP6541 push-pull comparator, 1.6V to 5.5V, 1 uA Iq.  Base package MCP6541 as SC-70-5.
+K Comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001696J.pdf
+$ENDCMP
+#
+$CMP NL17SZ14DFT2G
+D NL17SZ14 Schmitt trigger inverter, 1.65V to 5.5V.  DF Suffix has SC-88A package (SOT-553), Case 419A
+K Inverter
+F https://www.onsemi.com/pub/Collateral/NL17SZ14-D.PDF
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D N-MOSFET transistor, gate/source/drain
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Si4435FDY
+D PMOS, -30V Vds, 20V Vgs, -12.6A Id, 19 mOhm RDSon,
+F http://www.vishay.com/docs/75339/si4435fdy.pdf
+$ENDCMP
+#
+#End Doc Library
