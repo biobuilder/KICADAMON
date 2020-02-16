@@ -36,6 +36,12 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
+$CMP D_Zener_Small
+D Zener diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
 $CMP Ferrite_Bead_Small
 D Ferrite bead, small symbol
 K L ferrite bead inductor filter
