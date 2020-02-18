@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10118192-0001LF
+D Amphenol Micro B USB 2.0 connector, surface mount, right angle connector
+F http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf
+$ENDCMP
+#
 $CMP Conn_01x01
 D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -176,6 +181,18 @@ $ENDCMP
 #
 $CMP Conn_01x30
 D Generic connector, single row, 01x30, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x03_Counter_Clockwise_MountingPin
+D Generic connectable mounting pin connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x05_Odd_Even
+D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
