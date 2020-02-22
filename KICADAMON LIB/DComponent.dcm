@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PLCC4_LED
+D For 4PLCC or PLCC-4 LEDs.  Anode pins 1, 2 and 3, Cathode pin 4
+$ENDCMP
+#
+#End Doc Library

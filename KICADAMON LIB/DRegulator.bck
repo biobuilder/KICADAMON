@@ -9,6 +9,7 @@ $ENDCMP
 $CMP AP7380-50WR-7
 D 5V Linear Regulator, 150 mA max, 24V input max
 K LDO
+F https://www.diodes.com/assets/Datasheets/AP7380.pdf
 $ENDCMP
 #
 $CMP MIC5504-3.3YM5-TR
