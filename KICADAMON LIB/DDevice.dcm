@@ -84,4 +84,8 @@ K R res thermistor
 F ~
 $ENDCMP
 #
+$CMP VSUP
+D Constant Voltage Supply
+$ENDCMP
+#
 #End Doc Library
