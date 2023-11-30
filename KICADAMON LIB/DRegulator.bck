@@ -12,10 +12,30 @@ K LDO
 F https://www.diodes.com/assets/Datasheets/AP7380.pdf
 $ENDCMP
 #
+$CMP AS78LXX
+D Fixed Linear Regulator
+F https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/AS78Lxx_Aug2013_DS.pdf
+$ENDCMP
+#
+$CMP L7805
+D Linear regulator
+$ENDCMP
+#
 $CMP MIC5504-3.3YM5-TR
 D 3.3V Low Dropout Regulator, 300 mA output, 5.5V max input, 38 uA quiescent
 K LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5501-02-03-04-300mA-Single-Output-LDO-in-Small-Packages-DS20006006B.pdf
+$ENDCMP
+#
+$CMP MPM3620A
+D 4.5V to 24V 2A buck converter module
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/datasheet/lang/en/sku/MPM3620AGQV-Z/document_id/2100
+$ENDCMP
+#
+$CMP MUN12ADO3-SH
+D TPS82140 Buck Regulator Power Brick, 2A output, 17V max input
+K Buck Regulator
+F https://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf
 $ENDCMP
 #
 $CMP TPS82140

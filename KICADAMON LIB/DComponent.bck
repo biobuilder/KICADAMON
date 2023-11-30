@@ -1,7 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BRIDGE_RECTIFIER
+D Generic symbol for a single phase bridge rectifier circuit
+$ENDCMP
+#
 $CMP PLCC4_LED
 D For 4PLCC or PLCC-4 LEDs.  Anode pins 1, 2 and 3, Cathode pin 4
+$ENDCMP
+#
+$CMP W25Q_JV
+D Flash IC, SPI/Quad IO, 133MHz
+K Flash
+F https://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP +1V1
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP +24V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
 $CMP +3.3V
 D Power symbol creates a global label with name "+3.3V"
 K power-flag
@@ -20,6 +35,16 @@ D Power symbol creates a global label with name "+BATT"
 K power-flag battery
 $ENDCMP
 #
+$CMP AGND
+D Analog ground
+K power-flag
+$ENDCMP
+#
+$CMP DGND
+D Digital ground
+K power-flag
+$ENDCMP
+#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
@@ -30,8 +55,28 @@ D Power symbol creates a global label with name "GNDA" , analog ground
 K power-flag
 $ENDCMP
 #
+$CMP GND_EARTH
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP H_VAC
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP N_VAC
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
 $CMP VCC
 D Power symbol creates a global label with name "VCC"
+K power-flag
+$ENDCMP
+#
+$CMP VIN
+D Power symbol creates a global label with name "VIN"
 K power-flag
 $ENDCMP
 #

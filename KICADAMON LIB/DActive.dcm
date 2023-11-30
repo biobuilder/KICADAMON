@@ -1,9 +1,72 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2NPN
+D Dual NPN Transistor - pins 1Q2E 2Q2B 3Q1D 4Q1E 5Q1B 6Q2B
+F https://www.onsemi.com/pdf/datasheet/mbt3904dw1t1-d.pdf
+$ENDCMP
+#
+$CMP 74LVC
+D Configurable Multiple-Function Logic Gate
+$ENDCMP
+#
+$CMP 74LVC1G98DW-7
+D Configurable Multiple-Function Logic Gate
+F https://www.digikey.com/en/products/detail/diodes-incorporated/74LVC1G98DW-7/3829461
+$ENDCMP
+#
+$CMP AS393
+D AS393/A dual comparator open collector
+F https://www.diodes.com/assets/Datasheets/AS393-A.pdf
+$ENDCMP
+#
+$CMP AZ1117T-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AZ1117.pdf
+$ENDCMP
+#
+$CMP CO-420T
+D EECI 4 to 20 mA converter, not isolated
+F https://www.eeci.com/co-420ttm.pdf
+$ENDCMP
+#
+$CMP CPC1117N
+D Normally Closed Single Pole Solid State Relay
+K SSR, Relay, SPST-NC
+F https://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+$ENDCMP
+#
+$CMP INA180A
+D INA180 current sense amplifier, A configuration SOT-23-5
+K current sense
+F https://www.ti.com/lit/ds/symlink/ina180.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1665244108617&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fina180
+$ENDCMP
+#
+$CMP LM317_TO-220
+D 1.5A 35V Adjustable Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1A Positive
+F http://www.ti.com/lit/ds/symlink/lm317.pdf
+$ENDCMP
+#
+$CMP LM5148
+F https://www.ti.com/lit/ds/symlink/lm5148.pdf?ts=1695083225071
+$ENDCMP
+#
+$CMP LMX39
+D LM139, LM239, LM339, LM2901, LM3302
+K Op Amp Comparator
+F https://www.ti.com/lit/ds/symlink/lm339-n.pdf?ts=1663096431358&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 $CMP MCP6541T-ILT
 D Comparator, push-pull, 1.6V to 5.5V, 1 uA Iq.  Base package MCP6541 as SC-70-5.
 K Comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001696J.pdf
+$ENDCMP
+#
+$CMP MCP6566
+D Low power open-drain output comparator
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
 $CMP NL17SZ14DFT2G
@@ -12,9 +75,51 @@ K Inverter
 F https://www.onsemi.com/pub/Collateral/NL17SZ14-D.PDF
 $ENDCMP
 #
-$CMP Q_NMOS_GSD
-D N-MOSFET transistor, gate/source/drain
+$CMP PCA9306
+D bidirectional I2C voltage level translator
+K voltage level translator
+F https://www.ti.com/lit/ds/symlink/pca9306.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1697297122937&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fpca9306
+$ENDCMP
+#
+$CMP Q_NMOS_DGS
+D N-MOSFET transistor, Drain-Gate-Source (1-2-3)
 K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D N-MOSFET transistor, Gate-Source-Drain (1-2-3)
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_NMOS_SGD
+D N-MOSFET transistor, Source-Gate-Drain (1-2-3)
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_BEC
+D NPN Transistor, Emitter-Base-Collector (1-2-3)
+K NPN Transistor
+F https://robotechshop.com/wp-content/uploads/2016/02/2N3904.jpg
+$ENDCMP
+#
+$CMP Q_NPN_CBE
+D NPN Transistor, Collector-Base-Emitter (1-2-3)
+K NPN Transistor
+F https://z9q5c2a5.stackpathcdn.com/wp-content/uploads/2021/01/2N2222A-pinout-205x300.gif
+$ENDCMP
+#
+$CMP Q_NPN_EBC
+D NPN Transistor, Emitter-Base-Collector (1-2-3)
+K NPN Transistor
+F https://robotechshop.com/wp-content/uploads/2016/02/2N3904.jpg
+$ENDCMP
+#
+$CMP Q_PMOS_GDS
+D P-MOSFET transistor, gate/source/drain
+K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
@@ -24,9 +129,36 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_PNP_BEC
+D PNP Transistor, Collector-Base-Emitter (1-2-3)
+K PNP Transistor
+$ENDCMP
+#
+$CMP Q_PNP_CBE
+D PNP Transistor, Collector-Base-Emitter (1-2-3)
+K PNP Transistor
+$ENDCMP
+#
+$CMP Q_PNP_EBC
+D PNP Transistor, Collector-Base-Emitter (1-2-3)
+K PNP Transistor
+F https://circuitdigest.com/sites/default/files/field/image/PNP-Transistors_0.png
+$ENDCMP
+#
 $CMP Si4435FDY
 D PMOS, -30V Vds, 20V Vgs, -12.6A Id, 19 mOhm RDSon,
 F http://www.vishay.com/docs/75339/si4435fdy.pdf
+$ENDCMP
+#
+$CMP TC75S56F
+D General Purpose Single Comparator, Push-Pull, 1.8V to 7V, 10uA quiescent
+F https://toshiba.semicon-storage.com/info/TC75S56F_datasheet_en_20190911.pdf?did=20995&prodName=TC75S56F
+$ENDCMP
+#
+$CMP TMUX1308-Q1
+D 8:1 single ended multiplexer, 195 ohm impedance
+K multiplexer
+F https://www.ti.com/lit/ds/symlink/tmux1308-q1.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -36,6 +36,12 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
+$CMP D_TVS_DUAL
+D Zener diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Zener_Small
 D Zener diode, small symbol
 K diode
@@ -66,16 +72,66 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP MOTOR
+D DC motor
+$ENDCMP
+#
+$CMP OM-USB-3105
+D Omega DAQ board
+F https://www.mccdaq.com/pdfs/manuals/USB-3105.pdf
+$ENDCMP
+#
+$CMP OMB-DAQ-2416
+D Omega DAQ Board
+F https://assets.omega.com/manuals/M4800.pdf
+$ENDCMP
+#
 $CMP Polyfuse_Small
 D Resettable fuse, polymeric positive temperature coefficient, small symbol
 K resettable fuse PTC PPTC polyfuse polyswitch
 F ~
 $ENDCMP
 #
+$CMP RELAY_SPDT
+D Relay, Single Pole Double Throw
+$ENDCMP
+#
+$CMP RX_4-20_MA_LOOP
+D 4 to 20 mA loop, input, driven
+$ENDCMP
+#
 $CMP R_US
 D Resistor, US symbol
 K R res resistor
 F ~
+$ENDCMP
+#
+$CMP SOLENOID
+D Solenoid actuator for valve, etc.
+$ENDCMP
+#
+$CMP SP3T
+D Single Pole Triple Throw Switch
+$ENDCMP
+#
+$CMP SPDT_ON_OFF_ON
+D Single Pole Double Throw Switch, On-Off-On
+$ENDCMP
+#
+$CMP SPDT_ON_ON
+D Single Pole Double Throw Switch, On-on
+$ENDCMP
+#
+$CMP SPST_NO
+D Single Pole, Single Throw, Normally Open
+$ENDCMP
+#
+$CMP THERMOCOUPLE
+D Thermocouple sensor
+$ENDCMP
+#
+$CMP TX_4-20_MA_LOOP
+D 4 to 20 mA loop, output, driving
 $ENDCMP
 #
 $CMP Thermistor
