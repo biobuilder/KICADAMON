@@ -58,6 +58,12 @@ K Op Amp Comparator
 F https://www.ti.com/lit/ds/symlink/lm339-n.pdf?ts=1663096431358&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+$CMP MCP4725
+D I2C DAC 5V out, SOT-23-6 (only)
+K DAC
+F https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP4725-Data-Sheet-20002039E.pdf
+$ENDCMP
+#
 $CMP MCP6541T-ILT
 D Comparator, push-pull, 1.6V to 5.5V, 1 uA Iq.  Base package MCP6541 as SC-70-5.
 K Comparator
@@ -165,6 +171,11 @@ $CMP TMUX1308-Q1
 D 8:1 single ended multiplexer, 195 ohm impedance
 K multiplexer
 F https://www.ti.com/lit/ds/symlink/tmux1308-q1.pdf
+$ENDCMP
+#
+$CMP TPS2661X
+D TPS26611, TPS26612, TPS26614, 4-20mA loop protector IC
+F https://www.ti.com/lit/ds/symlink/tps2661.pdf
 $ENDCMP
 #
 #End Doc Library

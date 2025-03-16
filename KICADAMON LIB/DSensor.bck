@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MAX31855
+D Thermocouple Digital Converter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/max31855.pdf
+$ENDCMP
+#
 #End Doc Library

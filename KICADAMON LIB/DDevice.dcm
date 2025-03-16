@@ -36,6 +36,12 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
+$CMP D_TVS_DOUBLE
+D Two dual TVS diodes in SOT23 package, pin 1 and 2 inputs, pin 3 ground. Example: SZNUP2105L
+K tvs diode
+F ~
+$ENDCMP
+#
 $CMP D_TVS_DUAL
 D Zener diode, small symbol
 K diode
